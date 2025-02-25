@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Compras</h1>
+
+    <div class="container">
+        <div class="grupo-inputs">
+            <label for="inputNome">Item 1:</label>
+            <input type="text" id="inputNome">
+        </div>
+        <div class="grupo-inputs">
+            <label for="inputNome2">Item 2:</label>
+            <input type="text" id="inputNome2">
+        </div>
+        <div class="grupo-inputs">
+            <label for="inputNome3">Item 3:</label>
+            <input type="text" id="inputNome3">
+        </div>
+        <div class="grupo-inputs">
+            <label for="inputNome4">Item 4:</label>
+            <input type="text" id="inputNome4">
+        </div>
+        <div class="grupo-inputs">
+            <label for="inputNome5">Item 5:</label>
+            <input type="text" id="inputNome5">
+        </div>
+
+        <div class="grupo-botoes">
+            <button onclick="salvarNome()">Salvar nome</button>
+            <button onclick="mostrarNome()">Mostrar nome</button>
+        </div>
+
+        <div class="grupo-botoes">
+            <button onclick="limparNome()">Limpeza Completa</button>
+        </div>
+
+        <div class="resultado" id="resultado">Carregando...</div>
+        <div class="grupo-botoes">
+            <button onclick="Excluirnome()">Excluir item 1</button>
+        </div>
+        <div class="resultado" id="resultado2">Carregando...</div>
+        <div class="grupo-botoes">
+            <button onclick="Excluirnome2()">Excluir item 2</button>
+        </div>
+        <div class="resultado" id="resultado3">Carregando...</div>
+        <div class="grupo-botoes">
+            <button onclick="Excluirnome3()">Excluir item 3</button>
+        </div>
+        <div class="resultado" id="resultado4">Carregando...</div>
+        <div class="grupo-botoes">
+            <button onclick="Excluirnome4()">Excluir item 4</button>
+        </div>
+        <div class="resultado" id="resultado5">Carregando...</div>
+        <div class="grupo-botoes">
+            <button onclick="Excluirnome5()">Excluir item 5</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
